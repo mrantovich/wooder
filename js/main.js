@@ -1,10 +1,14 @@
 const burgerMenu = document.querySelector('.header__burger');
 burgerMenu.addEventListener('click', addActive);
 const headerBox = document.querySelector('.header');
+const wholeBody = document.querySelector('body');
+const wholeHTML = document.querySelector('html');
 
 function addActive() {
 	this.classList.toggle('_active');
 	headerBox.classList.toggle('_active');
+	wholeBody.classList.toggle('_lock');
+	wholeHTML.classList.toggle('_lock');
 };
 
 const sliderDotsArray = document.querySelectorAll('.main__slider-vertical-dots-item');
