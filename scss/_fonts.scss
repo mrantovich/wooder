@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'ProximaNovaCond';
+	src: url("../fonts/ProximaNovaCond-Regular.eot");
+	src: local("☺"), url("../fonts/ProximaNovaCond-Regular.woff") format("woff"), url("../fonts/ProximaNovaCond-Regular.ttf") format("truetype"), url("../fonts/ProximaNovaCond-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNovaCond';
+	src: url("../fonts/ProximaNovaCond-Bold.eot");
+	src: local("☺"), url("../fonts/ProximaNovaCond-Bold.woff") format("woff"), url("../fonts/ProximaNovaCond-Bold.ttf") format("truetype"), url("../fonts/ProximaNovaCond-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+
+$font-primary: 'ProximNovaCond', sans-serif;
