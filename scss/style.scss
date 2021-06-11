@@ -420,13 +420,9 @@ html, body {
 
 		@media (max-width: 1178px) {
 			flex-direction: row;
-			margin-right: 85px;
-		}
-
-		@media (max-width: 768px) {
-			margin-right: 0;
 			margin-bottom: 44px;
 		}
+
 	}
 
 	&__slider-vertical-line {

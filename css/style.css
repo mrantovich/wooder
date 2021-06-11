@@ -493,13 +493,6 @@ html._lock, body._lock {
 @media (max-width: 1178px) {
   .main__slider-vertical-point {
     flex-direction: row;
-    margin-right: 85px;
-  }
-}
-
-@media (max-width: 768px) {
-  .main__slider-vertical-point {
-    margin-right: 0;
     margin-bottom: 44px;
   }
 }
